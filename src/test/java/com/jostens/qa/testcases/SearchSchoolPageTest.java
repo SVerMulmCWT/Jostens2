@@ -44,7 +44,7 @@ public class SearchSchoolPageTest extends TestBase {
 	
 	//Test the school search functionality
 	@Test(dataProvider="inputs", dataProviderClass=ExcelUtil.class)
-	public void searchSchoolTest(String schoolName, String schoolStoreTitle, String finalStatus, String dataRow) {
+	public void bSearchSchoolTest(String schoolName, String schoolStoreTitle, String finalStatus, String dataRow) {
 		System.out.println("@Test - SearchSchoolPageTest()");
 		
 		//Initialize Variable(s)

@@ -42,7 +42,7 @@ public class ShoppingCartPageTest extends TestBase {
 	}
 	
 	@Test(dataProvider="inputs", dataProviderClass=ExcelUtil.class)
-	public void addProductToCartTest(String productName, String shoppingCartTitle, String pricePerItem, String itemCount, String itemPriceTotal, String itemSubtotal, String finalResult, String dataRow) throws InterruptedException {
+	public void dAddProductToCartTest(String productName, String shoppingCartTitle, String pricePerItem, String itemCount, String itemPriceTotal, String itemSubtotal, String finalResult, String dataRow) throws InterruptedException {
 		System.out.println("@Test - ShoppingCartPageTest()");
 		
 		//Initialize Variable(s)

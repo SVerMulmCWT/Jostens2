@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" > -->
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<!-- <suite name="TestSuite" parallel="tests" thread-count="2"> -->
-<suite name="TestSuite">
+<suite name="TestSuite" parallel="tests" thread-count="2">
+<!-- <suite name="TestSuite"> -->
 	
 	<listeners>
 <!-- 		<listener class-name="com.jostens.qa.analyzer.MyTransformer"></listener> -->
@@ -15,7 +15,7 @@
 		<parameter name="os_version" value="10" />
 		<parameter name="browser" value="Chrome" />
 		<parameter name="browser_version" value="81" />
-		<parameter name="browserStack" value="n" />
+		<parameter name="browserStack" value="Y" />
 <!-- 		<parameter name="dataTable" value="" /> -->
 		
 		<parameter name="dataTable" value="\src\main\java\com\jostens\qa\testdata\Jostens.xlsx" />
@@ -30,21 +30,25 @@
 		</classes>
 	</test>
 	
-<!-- 	<test name="Regression Edge"> -->
+	<test name="Regression Edge">
 		
-<!-- 		<parameter name="os" value="Windows" /> -->
-<!-- 		<parameter name="os_version" value="10" /> -->
-<!-- 		<parameter name="browser" value="Edge" /> -->
-<!-- 		<parameter name="browser_version" value="81" /> -->
+		<parameter name="os" value="Windows" />
+		<parameter name="os_version" value="10" />
+		<parameter name="browser" value="Edge" />
+		<parameter name="browser_version" value="81" />
+		<parameter name="browserStack" value="Y" />
+<!-- 		<parameter name="dataTable" value="" /> -->
 		
-<!-- 		<classes> -->
-<!-- 			<class name="com.jostens.qa.testcase.LoginPageTest"></class> -->
-<!--  			<class name="com.jostens.qa.testcase.HomePageTest"></class> -->
-<!--  			<class name="com.jostens.qa.testcase.SchoolStorePageTest"></class> -->
-<!--  			<class name="com.jostens.qa.testcase.ShoppingCartPageTest"></class> -->
-<!--  			<class name="com.jostens.qa.testcase.CheckoutPageTest"></class> -->
-<!--  			<class name="com.jostens.qa.testcase.PaymentPageTest"></class> -->
-<!-- 		</classes> -->
-<!-- 	</test> -->
+		<parameter name="dataTable" value="\src\main\java\com\jostens\qa\testdata\Jostens2.xlsx" />
+		
+		<classes>
+			<class name="com.jostens.qa.testcase.LoginPageTest"></class>
+ 			<class name="com.jostens.qa.testcase.HomePageTest"></class>
+ 			<class name="com.jostens.qa.testcase.SchoolStorePageTest"></class>
+ 			<class name="com.jostens.qa.testcase.ShoppingCartPageTest"></class>
+ 			<class name="com.jostens.qa.testcase.CheckoutPageTest"></class>
+ 			<class name="com.jostens.qa.testcase.PaymentPageTest"></class>
+		</classes>
+	</test>
 	
 </suite>

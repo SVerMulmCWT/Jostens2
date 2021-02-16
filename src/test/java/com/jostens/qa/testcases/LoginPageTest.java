@@ -44,7 +44,7 @@ public class LoginPageTest extends TestBase {
 	
 	//Test the login functionality
 	@Test
-	public void loginTest() {
+	public void aLoginTest() {
 		System.out.println("@Test - loginTest()");
 		
 		//Initialize Variable(s)
