@@ -1,66 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [TestSuite]" guice-stage="DEVELOPMENT" verbose="0">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [TestSuite]">
   <listeners>
     <listener class-name="com.jostens.qa.util.Listeners"/>
   </listeners>
-  <test thread-count="5" name="Test 1(failed)" verbose="0">
+  <test thread-count="5" verbose="0" name="Regression Chrome(failed)">
     <classes>
-      <class name="com.jostens.qa.testcases.CheckoutPageTest">
+      <class name="com.jostens.qa.testcases.ECheckoutPageTest">
         <methods>
-          <include name="test2"/>
+          <include name="afterMethod"/>
+          <include name="proceedWithCheckoutTest" invocation-numbers="0"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.jostens.qa.testcases.ECheckoutPageTest -->
+      <class name="com.jostens.qa.testcases.FPaymentPageTest">
+        <methods>
+          <include name="paymentPageTest" invocation-numbers="0"/>
           <include name="afterMethod"/>
           <include name="beforeClass"/>
           <include name="afterSuite"/>
-          <include name="proceedWithCheckoutTest"/>
           <include name="beforeSuite"/>
         </methods>
-      </class> <!-- com.jostens.qa.testcases.CheckoutPageTest -->
-      <class name="com.jostens.qa.testcases.HomePageTest">
+      </class> <!-- com.jostens.qa.testcases.FPaymentPageTest -->
+      <class name="com.jostens.qa.testcases.ALoginPageTest">
         <methods>
-          <include name="searchForSchoolTest"/>
-          <include name="afterMethod"/>
-          <include name="afterSuite"/>
-          <include name="beforeClass"/>
-          <include name="beforeSuite"/>
-        </methods>
-      </class> <!-- com.jostens.qa.testcases.HomePageTest -->
-      <class name="com.jostens.qa.testcases.LoginPageTest">
-        <methods>
-          <include name="afterMethod"/>
           <include name="loginTest"/>
-          <include name="afterSuite"/>
-          <include name="beforeSuite"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- com.jostens.qa.testcases.LoginPageTest -->
-      <class name="com.jostens.qa.testcases.SchoolStorePageTest">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="productSearchTest"/>
           <include name="afterMethod"/>
-          <include name="afterSuite"/>
-          <include name="beforeSuite"/>
-        </methods>
-      </class> <!-- com.jostens.qa.testcases.SchoolStorePageTest -->
-      <class name="com.jostens.qa.testcases.PaymentPageTest">
-        <methods>
-          <include name="afterMethod"/>
-          <include name="afterSuite"/>
-          <include name="test"/>
           <include name="beforeClass"/>
-          <include name="beforeSuite"/>
-        </methods>
-      </class> <!-- com.jostens.qa.testcases.PaymentPageTest -->
-      <class name="com.jostens.qa.testcases.ShoppingCartPageTest">
-        <methods>
-          <include name="addProductToCartTest"/>
-          <include name="afterMethod"/>
           <include name="afterSuite"/>
-          <include name="beforeClass"/>
           <include name="beforeSuite"/>
         </methods>
-      </class> <!-- com.jostens.qa.testcases.ShoppingCartPageTest -->
+      </class> <!-- com.jostens.qa.testcases.ALoginPageTest -->
     </classes>
-  </test> <!-- Test 1(failed) -->
+  </test> <!-- Regression Chrome(failed) -->
 </suite> <!-- Failed suite [TestSuite] -->

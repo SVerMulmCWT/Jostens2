@@ -6,6 +6,24 @@
   </listeners>
   <test thread-count="5" name="Regression Chrome(failed)">
     <classes>
+      <class name="com.jostens.qa.testcases.DShoppingCartPageTest">
+        <methods>
+          <include name="addProductToCartTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeClass"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.jostens.qa.testcases.DShoppingCartPageTest -->
+      <class name="com.jostens.qa.testcases.FPaymentPageTest">
+        <methods>
+          <include name="paymentPageTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.jostens.qa.testcases.FPaymentPageTest -->
       <class name="com.jostens.qa.testcases.ALoginPageTest">
         <methods>
           <include name="loginTest"/>
@@ -15,6 +33,33 @@
           <include name="beforeSuite"/>
         </methods>
       </class> <!-- com.jostens.qa.testcases.ALoginPageTest -->
+      <class name="com.jostens.qa.testcases.CProductDetailPageTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="productSearchTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.jostens.qa.testcases.CProductDetailPageTest -->
+      <class name="com.jostens.qa.testcases.ECheckoutPageTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="proceedWithCheckoutTest"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.jostens.qa.testcases.ECheckoutPageTest -->
+      <class name="com.jostens.qa.testcases.BSearchSchoolPageTest">
+        <methods>
+          <include name="searchSchoolTest"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.jostens.qa.testcases.BSearchSchoolPageTest -->
     </classes>
   </test> <!-- Regression Chrome(failed) -->
 </suite> <!-- Failed suite [TestSuite] -->

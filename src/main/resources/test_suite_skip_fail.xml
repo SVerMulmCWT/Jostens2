@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" > -->
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<!-- <suite name="TestSuite" parallel="tests" thread-count="2"> -->
+<suite name="TestSuite">
+	
+	<listeners>
+<!-- 		<listener class-name="com.jostens.qa.analyzer.MyTransformer"></listener> -->
+		<listener class-name="com.jostens.qa.util.Listeners"></listener>
+	</listeners>
+	
+	<test name="Regression Chrome">
+		
+		<classes>
+			<class name="com.jostens.qa.testcases.ALoginPageTest"></class>
+ 			<class name="com.jostens.qa.testcases.BSearchSchoolPageTest"></class>
+ 			<class name="com.jostens.qa.testcases.CProductDetailPageTest"></class>
+ 			<class name="com.jostens.qa.testcases.DShoppingCartPageTest"></class>
+ 			<class name="com.jostens.qa.testcases.ECheckoutPageTest"></class>
+ 			<class name="com.jostens.qa.testcases.FPaymentPageTest"></class>
+		</classes>
+	</test>
+	
+<!-- 	<test name="Regression Edge"> -->
+		
+<!-- 		<parameter name="os" value="Windows" /> -->
+<!-- 		<parameter name="os_version" value="10" /> -->
+<!-- 		<parameter name="browser" value="Edge" /> -->
+<!-- 		<parameter name="browser_version" value="81" /> -->
+		
+<!-- 		<classes> -->
+<!-- 			<class name="com.jostens.qa.testcase.LoginPageTest"></class> -->
+<!--  			<class name="com.jostens.qa.testcase.HomePageTest"></class> -->
+<!--  			<class name="com.jostens.qa.testcase.SchoolStorePageTest"></class> -->
+<!--  			<class name="com.jostens.qa.testcase.ShoppingCartPageTest"></class> -->
+<!--  			<class name="com.jostens.qa.testcase.CheckoutPageTest"></class> -->
+<!--  			<class name="com.jostens.qa.testcase.PaymentPageTest"></class> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+	
+</suite>

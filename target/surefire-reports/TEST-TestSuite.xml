@@ -1,290 +1,214 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="64.472" tests="17" errors="0" skipped="0" failures="3">
+<testsuite name="TestSuite" time="142.651" tests="24" errors="0" skipped="2" failures="3">
   <properties>
-    <property name="JOB_NAME" value="JostensPOM"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/JostensPOM/10/display/redirect?page=tests"/>
-    <property name="NUMBER_OF_PROCESSORS" value="8"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="JENKINS_HOME" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins"/>
-    <property name="HUDSON_SERVER_COOKIE" value="558204c0ae4ce3b1"/>
-    <property name="POM_ARTIFACTID" value="JostensA"/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="EXECUTOR_NUMBER" value="1"/>
-    <property name="sun.desktop" value="windows"/>
-    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW"/>
-    <property name="POM_DISPLAYNAME" value="JostensA"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="TEMP" value="C:\WINDOWS\TEMP"/>
-    <property name="NODE_LABELS" value="master"/>
-    <property name="java.runtime.version" value="11.0.9+7-LTS"/>
-    <property name="ST_INSTALL_PATH" value="C:\Program Files (x86)\Micro Focus\UFT Developer\"/>
-    <property name="WINSW_SERVICE_ID" value="jenkins"/>
-    <property name="user.name" value="DESKTOP-LTKBB09$"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
-    <property name="ProgramFiles" value="C:\Program Files"/>
-    <property name="user.language" value="en"/>
-    <property name="JOB_BASE_NAME" value="JostensPOM"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/JostensPOM/10/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#10"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.9\bin"/>
-    <property name="java.vm.compressedOopsMode" value="32-bit"/>
-    <property name="LOCALAPPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local"/>
-    <property name="java.version" value="11.0.9"/>
-    <property name="JAVA_TOOL_OPTIONS" value="-agentlib:jvmhook"/>
-    <property name="user.timezone" value="America/Chicago"/>
-    <property name="PROCESSOR_LEVEL" value="21"/>
-    <property name="USERNAME" value="DESKTOP-LTKBB09$"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="NODE_NAME" value="master"/>
-    <property name="BUILD_ID" value="10"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="maven.conf" value="C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven\conf"/>
-    <property name="file.separator" value="\"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.class.version" value="55.0"/>
-    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
-    <property name="user.country" value="US"/>
-    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.9"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="os.version" value="10.0"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/JostensPOM/10/display/redirect"/>
-    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
-    <property name="TMP" value="C:\WINDOWS\TEMP"/>
-    <property name="path.separator" value=";"/>
-    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/JostensPOM/10/display/redirect?page=artifacts"/>
-    <property name="java.vm.version" value="11.0.9+7-LTS"/>
-    <property name="user.variant" value=""/>
-    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
-    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/JostensPOM/display/redirect"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk-11.0.9"/>
-    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="POM_PACKAGING" value="jar"/>
-    <property name="SERVICE_ID" value="jenkins"/>
-    <property name="COMPUTERNAME" value="DESKTOP-LTKBB09"/>
-    <property name="user.script" value=""/>
-    <property name="POM_GROUPID" value="com.jostens.qa"/>
-    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
-    <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-JostensPOM-10"/>
-    <property name="JENKINS_SERVER_COOKIE" value="558204c0ae4ce3b1"/>
-    <property name="HUDSON_URL" value="http://localhost:8080/"/>
-    <property name="ProgramData" value="C:\ProgramData"/>
-    <property name="java.version.date" value="2020-10-20"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="USERPROFILE" value="C:\WINDOWS\system32\config\systemprofile"/>
-    <property name="CLASSPATH" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.9\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/bin;C:\Program Files\Java\jdk-11.0.9/bin;C:\Program Files\Java\jdk-11.0.9/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python38\Scripts\;C:\Python38\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.7.0_80\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Micro Focus\UFT Developer\bin;C:\Program Files\Git\cmd;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
-    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="APPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="maven.home" value="C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven"/>
-    <property name="java.class.path" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven\boot\plexus-classworlds-2.6.0.jar;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\war\WEB-INF\lib\remoting-4.6.jar C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 54820"/>
-    <property name="LEANFT_HOME" value="C:\Program Files (x86)\Micro Focus\UFT Developer\"/>
-    <property name="Path" value="C:\Program Files\Java\jdk-11.0.9/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python38\Scripts\;C:\Python38\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.7.0_80\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Micro Focus\UFT Developer\bin;C:\Program Files\Git\cmd;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps"/>
-    <property name="jdk.debug" value="release"/>
-    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="PATH+JDK" value="C:\Program Files\Java\jdk-11.0.9/bin"/>
-    <property name="PROCESSOR_IDENTIFIER" value="AMD64 Family 21 Model 2 Stepping 0, AuthenticAMD"/>
-    <property name="java.vm.specification.version" value="11"/>
-    <property name="M2_HOME" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="sun.os.patch.level" value=""/>
-    <property name="IBM_JAVA_OPTIONS" value="-Xrunjvmhook -Xbootclasspath/a:&quot;C:\Program Files (x86)\Micro Focus\UFT Developer\bin\java_shared\classes;C:\Program Files (x86)\Micro Focus\UFT Developer\bin\java_shared\classes\jasmine.jar&quot;"/>
-    <property name="OS" value="Windows_NT"/>
-    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
-    <property name="HUDSON_HOME" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins"/>
-    <property name="PATH+MAVEN" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/bin"/>
-    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/JostensPOM/10/"/>
-    <property name="SystemRoot" value="C:\WINDOWS"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="user.dir" value="C:\Users\Owner\selenium-workplace\JostensDefinitive4"/>
-    <property name="_JAVA_OPTIONS" value="-Xrunjvmhook -Xbootclasspath/a:&quot;C:\Program Files (x86)\Micro Focus\UFT Developer\bin\java_shared\classes&quot;;&quot;C:\Program Files (x86)\Micro Focus\UFT Developer\\bin\java_shared\classes\jasmine.jar&quot;"/>
-    <property name="JOB_URL" value="http://localhost:8080/job/JostensPOM/"/>
-    <property name="VBOX_HWVIRTEX_IGNORE_SVM_IN_USE" value="1"/>
-    <property name="USERDOMAIN" value="WORKGROUP"/>
-    <property name="MAVEN_HOME" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven"/>
-    <property name="line.separator" value="&#10;"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\bin"/>
+    <property name="java.vm.version" value="25.271-b09"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Owner\selenium-workplace\Jostens4"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BASE" value="C:\Program Files\Jenkins"/>
-    <property name="BUILD_NUMBER" value="10"/>
-    <property name="PROCESSOR_REVISION" value="0200"/>
-    <property name="JENKINS_URL" value="http://localhost:8080/"/>
-    <property name="ProgramW6432" value="C:\Program Files"/>
-    <property name="windir" value="C:\WINDOWS"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Owner\selenium-workplace\Jostens4"/>
+    <property name="java.runtime.version" value="1.8.0_271-b09"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Owner\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\Owner\Documents\Selenium\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_271\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python38\Scripts\;C:\Python38\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.7.0_80\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Micro Focus\UFT Developer\bin;C:\Program Files\Git\cmd;C:\Users\Owner\Documents\Selenium\commandlinetools-win-6858069_latest\cmdline-tools\bin\path-to-where-cmdline-tools-is\platform-tools;C:\Users\Owner\Documents\Selenium\apache-maven-3.6.3\bin;C:\Users\Owner\AppData\Local\Microsoft\WindowsApps;C:\Users\Owner\AppData\Roaming\npm;;."/>
+    <property name="maven.conf" value="C:\Users\Owner\Documents\Selenium\apache-maven-3.6.3\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Users\Owner\Documents\Selenium\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Owner"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="SystemDrive" value="C:"/>
-    <property name="maven3.interceptor" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
-    <property name="WORKSPACE_TMP" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\JostensPOM@tmp"/>
-    <property name="WORKSPACE" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\JostensPOM"/>
-    <property name="ChocolateyInstall" value="C:\ProgramData\chocolatey"/>
-    <property name="maven3.interceptor.common" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
-    <property name="WINSW_EXECUTABLE" value="C:\Program Files\Jenkins\jenkins.exe"/>
-    <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules"/>
-    <property name="java.specification.version" value="11"/>
-    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
-    <property name="java.vendor.version" value="18.9"/>
+    <property name="user.name" value="Owner"/>
+    <property name="java.class.path" value="C:\Users\Owner\Documents\Selenium\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_271\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -PTest1"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_271"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_271\jre\classes;C:\Program Files (x86)\Micro Focus\UFT Developer\bin\java_shared\classes;C:\Program Files (x86)\Micro Focus\UFT Developer\bin\java_shared\classes\jasmine.jar"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Owner\Documents\Selenium\apache-maven-3.6.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="loginTest" classname="com.jostens.qa.testcases.LoginPageTest" time="9.846"/>
-  <testcase name="loginTest" classname="com.jostens.qa.testcases.LoginPageTest" time="5.294"/>
-  <testcase name="searchForSchoolTest" classname="com.jostens.qa.testcases.HomePageTest" time="6.607"/>
-  <testcase name="searchForSchoolTest" classname="com.jostens.qa.testcases.HomePageTest" time="2.779"/>
-  <testcase name="productSearchTest" classname="com.jostens.qa.testcases.SchoolStorePageTest" time="28.756"/>
-  <testcase name="productSearchTest" classname="com.jostens.qa.testcases.SchoolStorePageTest" time="22.855"/>
-  <testcase name="productSearchTest" classname="com.jostens.qa.testcases.SchoolStorePageTest" time="21.13"/>
-  <testcase name="addProductToCartTest" classname="com.jostens.qa.testcases.ShoppingCartPageTest" time="2.023"/>
-  <testcase name="addProductToCartTest" classname="com.jostens.qa.testcases.ShoppingCartPageTest" time="0.138"/>
-  <testcase name="addProductToCartTest" classname="com.jostens.qa.testcases.ShoppingCartPageTest" time="0.14"/>
-  <testcase name="proceedWithCheckoutTest" classname="com.jostens.qa.testcases.CheckoutPageTest" time="9.449"/>
-  <testcase name="proceedWithCheckoutTest" classname="com.jostens.qa.testcases.CheckoutPageTest" time="12.756">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//address[@class=&apos;address address--tight&apos;]&quot;}&#10;  (Session info: chrome=87.0.4280.88)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-LTKBB09&apos;, ip: &apos;192.168.0.31&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.9&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\WINDOWS\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:54833}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 66d4f48893e4c75e189d8f6d474394d1&#10;*** Element info: {Using=xpath, value=//address[@class=&apos;address address--tight&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//address[@class='address address--tight']"}
-  (Session info: chrome=87.0.4280.88)
+  <testcase name="loginTest" classname="com.jostens.qa.testcases.ALoginPageTest" time="37.097">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-LTKBB09&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Windows\proxy\scoped_dir...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:3445}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 81.0.4044.129, webStorageEnabled: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: d2a106c03e2e6a8ceb19f6fec84...}&#10;Session ID: d2a106c03e2e6a8ceb19f6fec844f026f309b985&#10;*** Element info: {Using=xpath, value=//a[@id=&apos;sign-in-dropdown-toggle__utility-bar&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-LTKBB09', ip: '192.168.0.31', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\WINDOWS\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:54833}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 66d4f48893e4c75e189d8f6d474394d1
-*** Element info: {Using=xpath, value=//address[@class='address address--tight']}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+System info: host: 'DESKTOP-LTKBB09', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Windows\proxy\scoped_dir...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:3445}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 81.0.4044.129, webStorageEnabled: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: d2a106c03e2e6a8ceb19f6fec84...}
+Session ID: d2a106c03e2e6a8ceb19f6fec844f026f309b985
+*** Element info: {Using=xpath, value=//a[@id='sign-in-dropdown-toggle__utility-bar']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at jdk.internal.reflect.GeneratedMethodAccessor23.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy9.findElement(Unknown Source)
+	at com.sun.proxy.$Proxy7.findElement(Unknown Source)
 	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy14.getText(Unknown Source)
-	at com.jostens.qa.pages.CheckoutPage.verifyShippingInfo(CheckoutPage.java:238)
-	at com.jostens.qa.testcases.CheckoutPageTest.proceedWithCheckoutTest(CheckoutPageTest.java:81)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at com.jostens.qa.pages.LoginPage.login(LoginPage.java:72)
+	at com.jostens.qa.testcases.ALoginPageTest.loginTest(ALoginPageTest.java:55)
 </failure>
-    <system-out><![CDATA[The Test Case that passed is: proceedWithCheckoutTest
+    <system-out><![CDATA[[TestNG] [WARN] Ignoring duplicate listener : com.jostens.qa.util.Listeners
+[TestNG] [WARN] Ignoring duplicate listener : com.jostens.qa.util.Listeners
+[TestNG] [WARN] Ignoring duplicate listener : com.jostens.qa.util.Listeners
+File deleted successfully
+Performing the script's setups (@BeforeSuite)
+hello
+bye
+Initializing the script's PageFactories
+@Test - loginTest()
+Navigating to the website -> https://www.jostens.com/
+Attempting to login with the userid -> Steve.VerMulm@gmail.com
+onTestFailure -> Test Name: loginTest in class name: class org.testng.internal.TestResult
+onTestFailure -> Test Status: 2/[TestResult name=loginTest status=FAILURE method=ALoginPageTest.loginTest()[pri:0, instance:com.jostens.qa.testcases.ALoginPageTest@ff5b51f] output={null}]
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 88.0.4324.96 (resolved driver for Chrome 88)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Owner\.cache\selenium\chromedriver\win32\88.0.4324.96\chromedriver.exe
+Feb 20, 2021 8:03:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="loginTest" classname="com.jostens.qa.testcases.ALoginPageTest" time="23.904"/>
+  <testcase name="searchSchoolTest" classname="com.jostens.qa.testcases.BSearchSchoolPageTest" time="19.399"/>
+  <testcase name="searchSchoolTest" classname="com.jostens.qa.testcases.BSearchSchoolPageTest" time="7.157"/>
+  <testcase name="productSearchTest" classname="com.jostens.qa.testcases.CProductDetailPageTest" time="54.402"/>
+  <testcase name="productSearchTest" classname="com.jostens.qa.testcases.CProductDetailPageTest" time="38.219"/>
+  <testcase name="productSearchTest" classname="com.jostens.qa.testcases.CProductDetailPageTest" time="37.678"/>
+  <testcase name="productSearchTest" classname="com.jostens.qa.testcases.CProductDetailPageTest" time="41.709"/>
+  <testcase name="productSearchTest" classname="com.jostens.qa.testcases.CProductDetailPageTest" time="33.364"/>
+  <testcase name="productSearchTest" classname="com.jostens.qa.testcases.CProductDetailPageTest" time="33.643"/>
+  <testcase name="addProductToCartTest" classname="com.jostens.qa.testcases.DShoppingCartPageTest" time="5.662"/>
+  <testcase name="addProductToCartTest" classname="com.jostens.qa.testcases.DShoppingCartPageTest" time="1.99"/>
+  <testcase name="addProductToCartTest" classname="com.jostens.qa.testcases.DShoppingCartPageTest" time="1.443"/>
+  <testcase name="addProductToCartTest" classname="com.jostens.qa.testcases.DShoppingCartPageTest" time="3.845"/>
+  <testcase name="addProductToCartTest" classname="com.jostens.qa.testcases.DShoppingCartPageTest" time="1.343"/>
+  <testcase name="addProductToCartTest" classname="com.jostens.qa.testcases.DShoppingCartPageTest" time="1.077"/>
+  <testcase name="proceedWithCheckoutTest" classname="com.jostens.qa.testcases.ECheckoutPageTest" time="26.091">
+    <failure message="The following asserts failed:&#10;	expected [Information - Jostens School Store] but found [Information - Jostens School Store - Checkout]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Information - Jostens School Store] but found [Information - Jostens School Store - Checkout]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.jostens.qa.testcases.ECheckoutPageTest.proceedWithCheckoutTest(ECheckoutPageTest.java:86)
+</failure>
+    <system-out><![CDATA[The Test Case that passed is: addProductToCartTest
+Initializing the script's PageFactories
+C:\Users\Owner\selenium-workplace\Jostens4\src\main\java\com\jostens\qa\testdata\newJostens2.xlsx - Checkout
 @Test - proceedWithCheckoutTest()
+Proceeding to the Checkout Page
 Entering the user's email in the Checkout Page for shipping
-saveInfo=no
-emailUpdatesCheckbox.isSelect()=false
+Remove the check for the 'Send Email Updates' checkbox.
 Entering the user's name in the Checkout Page for shipping
 Entering the user's address in the Checkout Page for shipping
 Entering the user's phone number in the Checkout Page for contact info
 Proceeding to the Shipping Page
 saveInfo=no
 saveInfoCheckbox.isSelect()=false
-409 Beachcomber Drive, Lake Park IA 51347, United States
 onTestFailure -> Test Name: proceedWithCheckoutTest in class name: class org.testng.internal.TestResult
-onTestFailure -> Test Status: 2/[TestResult name=proceedWithCheckoutTest status=FAILURE method=CheckoutPageTest.proceedWithCheckoutTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.CheckoutPageTest@15de0b3c] output={null}]
+onTestFailure -> Test Status: 2/[TestResult name=proceedWithCheckoutTest status=FAILURE method=ECheckoutPageTest.proceedWithCheckoutTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.ECheckoutPageTest@4b952a2d] output={null}]
 ]]></system-out>
   </testcase>
-  <testcase name="proceedWithCheckoutTest" classname="com.jostens.qa.testcases.CheckoutPageTest" time="6.043">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;step__footer__previous-link&apos;]//span[contains(text(), &apos;Return to information&apos;)]&quot;}&#10;  (Session info: chrome=87.0.4280.88)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-LTKBB09&apos;, ip: &apos;192.168.0.31&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.9&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\WINDOWS\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:54833}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 66d4f48893e4c75e189d8f6d474394d1&#10;*** Element info: {Using=xpath, value=//a[@class=&apos;step__footer__previous-link&apos;]//span[contains(text(), &apos;Return to information&apos;)]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='step__footer__previous-link']//span[contains(text(), 'Return to information')]"}
-  (Session info: chrome=87.0.4280.88)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-LTKBB09', ip: '192.168.0.31', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\WINDOWS\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:54833}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 66d4f48893e4c75e189d8f6d474394d1
-*** Element info: {Using=xpath, value=//a[@class='step__footer__previous-link']//span[contains(text(), 'Return to information')]}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at jdk.internal.reflect.GeneratedMethodAccessor23.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy9.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy14.click(Unknown Source)
-	at com.jostens.qa.pages.CheckoutPage.returnToShippingInputPage(CheckoutPage.java:248)
-	at com.jostens.qa.testcases.CheckoutPageTest.proceedWithCheckoutTest(CheckoutPageTest.java:63)
+  <testcase name="proceedWithCheckoutTest" classname="com.jostens.qa.testcases.ECheckoutPageTest" time="23.736"/>
+  <testcase name="proceedWithCheckoutTest" classname="com.jostens.qa.testcases.ECheckoutPageTest" time="21.218"/>
+  <testcase name="proceedWithCheckoutTest" classname="com.jostens.qa.testcases.ECheckoutPageTest" time="19.132">
+    <failure message="The following asserts failed:&#10;	expected [Information - Jostens School Store] but found [Information - Jostens School Store - Checkout]" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	expected [Information - Jostens School Store] but found [Information - Jostens School Store - Checkout]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.jostens.qa.testcases.ECheckoutPageTest.proceedWithCheckoutTest(ECheckoutPageTest.java:86)
 </failure>
-    <system-out><![CDATA[@Test - proceedWithCheckoutTest()
-onTestFailure -> Test Name: proceedWithCheckoutTest in class name: class org.testng.internal.TestResult
-onTestFailure -> Test Status: 2/[TestResult name=proceedWithCheckoutTest status=FAILURE method=CheckoutPageTest.proceedWithCheckoutTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.CheckoutPageTest@15de0b3c] output={null}]
-]]></system-out>
-  </testcase>
-  <testcase name="test2" classname="com.jostens.qa.testcases.CheckoutPageTest" time="0.267"/>
-  <testcase name="test2" classname="com.jostens.qa.testcases.CheckoutPageTest" time="0.191"/>
-  <testcase name="test2" classname="com.jostens.qa.testcases.CheckoutPageTest" time="0.257"/>
-  <testcase name="test" classname="com.jostens.qa.testcases.PaymentPageTest" time="7.524">
-    <failure message="invalid selector: An invalid or illegal selector was specified&#10;  (Session info: chrome=87.0.4280.88)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-LTKBB09&apos;, ip: &apos;192.168.0.31&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.9&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\WINDOWS\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:54833}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 66d4f48893e4c75e189d8f6d474394d1&#10;*** Element info: {Using=css selector, value=frame#,iframe#}" type="org.openqa.selenium.InvalidSelectorException">org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
-  (Session info: chrome=87.0.4280.88)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-LTKBB09', ip: '192.168.0.31', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\WINDOWS\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:54833}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 66d4f48893e4c75e189d8f6d474394d1
-*** Element info: {Using=css selector, value=frame#,iframe#}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:424)
-	at org.openqa.selenium.By$ByCssSelector.findElements(By.java:441)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:881)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringTargetLocator.frame(EventFiringWebDriver.java:702)
-	at com.jostens.qa.pages.PaymentPage.enterCreditCardNumber(PaymentPage.java:79)
-	at com.jostens.qa.pages.PaymentPage.enterCreditCardInfo(PaymentPage.java:159)
-	at com.jostens.qa.testcases.PaymentPageTest.test(PaymentPageTest.java:65)
-</failure>
-    <system-out><![CDATA[The Test Case that passed is: test2
+    <system-out><![CDATA[The Test Case that passed is: addProductToCartTest
 Initializing the script's PageFactories
-C:\Users\Owner\selenium-workplace\JostensDefinitive4\src\main\java\com\jostens\qa\testdata\Jostens.xlsx - Payment
+C:\Users\Owner\selenium-workplace\Jostens4\src\main\java\com\jostens\qa\testdata\newJostens2.xlsx - Checkout
+@Test - proceedWithCheckoutTest()
+Proceeding to the Checkout Page
+Entering the user's email in the Checkout Page for shipping
+Remove the check for the 'Send Email Updates' checkbox.
+Entering the user's name in the Checkout Page for shipping
+Entering the user's address in the Checkout Page for shipping
+Entering the user's phone number in the Checkout Page for contact info
+Proceeding to the Shipping Page
+saveInfo=no
+saveInfoCheckbox.isSelect()=false
+onTestFailure -> Test Name: proceedWithCheckoutTest in class name: class org.testng.internal.TestResult
+onTestFailure -> Test Status: 2/[TestResult name=proceedWithCheckoutTest status=FAILURE method=ECheckoutPageTest.proceedWithCheckoutTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.ECheckoutPageTest@2286778] output={null}]
+]]></system-out>
+  </testcase>
+  <testcase name="proceedWithCheckoutTest" classname="com.jostens.qa.testcases.ECheckoutPageTest" time="19.264"/>
+  <testcase name="proceedWithCheckoutTest" classname="com.jostens.qa.testcases.ECheckoutPageTest" time="17.906"/>
+  <testcase name="paymentPageTest" classname="com.jostens.qa.testcases.FPaymentPageTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[The Test Case that passed is: proceedWithCheckoutTest
+Initializing the script's PageFactories
+C:\Users\Owner\selenium-workplace\Jostens4\src\main\java\com\jostens\qa\testdata\newJostens2.xlsx - Payment
 @Test - PaymentPageTest()
-Submitting the user's credit card info for payment
-Entering the user's credit card number at the payment page
-
-onTestFailure -> Test Name: test in class name: class org.testng.internal.TestResult
-onTestFailure -> Test Status: 2/[TestResult name=test status=FAILURE method=PaymentPageTest.test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.PaymentPageTest@489115ef] output={null}]
+onTestSkipped -> Test Name: paymentPageTest / paymentPageTest-FPaymentPageTest.paymentPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.FPaymentPageTest@3159c4b8]
+Test Skipped due to:
+[]
+]]></system-out>
+  </testcase>
+  <testcase name="paymentPageTest" classname="com.jostens.qa.testcases.FPaymentPageTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[The Test Case that passed is: proceedWithCheckoutTest
+Initializing the script's PageFactories
+C:\Users\Owner\selenium-workplace\Jostens4\src\main\java\com\jostens\qa\testdata\newJostens2.xlsx - Payment
+@Test - PaymentPageTest()
+onTestSkipped -> Test Name: paymentPageTest / paymentPageTest-FPaymentPageTest.paymentPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.FPaymentPageTest@4e9ba398]
+Test Skipped due to:
+[]
 ]]></system-out>
   </testcase>
 </testsuite>

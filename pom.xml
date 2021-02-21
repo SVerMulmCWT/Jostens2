@@ -142,7 +142,8 @@
             <version>2.18.1</version>
             <configuration>
               <suiteXmlFiles>
-                <suiteXmlFile>src\main\resources\test_suite.xml</suiteXmlFile>
+                <suiteXmlFile>src/main/resources/test_suite.xml</suiteXmlFile>
+<!--                 <suiteXmlFile>src/main/resources/test_suite_skip_fail.xml</suiteXmlFile> -->
               </suiteXmlFiles>
             </configuration>
           </plugin>
