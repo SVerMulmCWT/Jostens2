@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Regression Chrome</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>13/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/5/1</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Feb 20 19:04:45 CST 2021</td>
+<td>Started on:</td><td>Sun Feb 21 13:12:33 CST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>198 seconds (198214 ms)</td>
+<tr><td>Total time:</td><td>3 seconds (3497 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,78 +67,432 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.jostens.qa.testcases.DShoppingCartPageTest.addProductToCartTest()'><b>addProductToCartTest</b><br>Test class: com.jostens.qa.testcases.DShoppingCartPageTest<br>Parameters: New Era Men's Heritage Blend 3/4-Sleeve Baseball Raglan Tee, Your Shopping Cart - Jostens School Store, $27.95, 1, $27.95, $85.85, Success - 2021/02/20 18:58:27, 1</td>
-<td></td>
-<td>4</td>
-<td>com.jostens.qa.testcases.DShoppingCartPageTest@5fbdfdcf</td></tr>
+<td title='com.jostens.qa.testcases.ALoginPageTest.beforeSuite()'><b>beforeSuite</b><br>Test class: com.jostens.qa.testcases.ALoginPageTest</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 908 milliseconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-LTKBB09&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.9&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
+	at com.jostens.qa.base.TestBase.initializeDriver(TestBase.java:146)
+	at com.jostens.qa.base.TestBase.beforeSuite(TestBase.java:181)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1500588149", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1500588149'><pre>org.openqa.selenium.WebDriverException: Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 908 milliseconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-LTKBB09&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.9&apos;
+Driver info: driver.version: RemoteWebDriver
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
+	at com.jostens.qa.base.TestBase.initializeDriver(TestBase.java:146)
+	at com.jostens.qa.base.TestBase.beforeSuite(TestBase.java:181)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+	at org.testng.TestRunner.run(TestRunner.java:578)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>2</td>
+<td>com.jostens.qa.testcases.ALoginPageTest@156b88f5</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
 <tr>
-<td title='com.jostens.qa.testcases.DShoppingCartPageTest.addProductToCartTest()'><b>addProductToCartTest</b><br>Test class: com.jostens.qa.testcases.DShoppingCartPageTest<br>Parameters: New Era Women's Tri-Blend Fleece Pullover Hoodie, Your Shopping Cart - Jostens School Store, $38.95, 1, $38.95, $85.85, Success - 2021/02/20 18:58:28, 2</td>
+<td title='com.jostens.qa.testcases.ALoginPageTest.beforeClass()'><b>beforeClass</b><br>Test class: com.jostens.qa.testcases.ALoginPageTest</td>
 <td></td>
-<td>1</td>
-<td>com.jostens.qa.testcases.DShoppingCartPageTest@5fbdfdcf</td></tr>
+<td>-1613934755</td>
+<td>com.jostens.qa.testcases.ALoginPageTest@156b88f5</td></tr>
 <tr>
-<td title='com.jostens.qa.testcases.DShoppingCartPageTest.addProductToCartTest()'><b>addProductToCartTest</b><br>Test class: com.jostens.qa.testcases.DShoppingCartPageTest<br>Parameters: 3 Ply Sublimated Mask, Your Shopping Cart - Jostens School Store, $18.95, 1, $18.95, $85.85, Success - 2021/02/20 18:58:29, 3</td>
+<td title='com.jostens.qa.testcases.BSearchSchoolPageTest.beforeClass()'><b>beforeClass</b><br>Test class: com.jostens.qa.testcases.BSearchSchoolPageTest</td>
 <td></td>
-<td>1</td>
-<td>com.jostens.qa.testcases.DShoppingCartPageTest@5fbdfdcf</td></tr>
+<td>-1613934755</td>
+<td>com.jostens.qa.testcases.BSearchSchoolPageTest@3bf9ce3e</td></tr>
+<tr>
+<td title='com.jostens.qa.testcases.CProductDetailPageTest.beforeClass()'><b>beforeClass</b><br>Test class: com.jostens.qa.testcases.CProductDetailPageTest</td>
+<td></td>
+<td>-1613934756</td>
+<td>com.jostens.qa.testcases.CProductDetailPageTest@16610890</td></tr>
+<tr>
+<td title='com.jostens.qa.testcases.DShoppingCartPageTest.beforeClass()'><b>beforeClass</b><br>Test class: com.jostens.qa.testcases.DShoppingCartPageTest</td>
+<td></td>
+<td>-1613934756</td>
+<td>com.jostens.qa.testcases.DShoppingCartPageTest@71def8f8</td></tr>
+<tr>
+<td title='com.jostens.qa.testcases.ECheckoutPageTest.beforeClass()'><b>beforeClass</b><br>Test class: com.jostens.qa.testcases.ECheckoutPageTest</td>
+<td></td>
+<td>-1613934757</td>
+<td>com.jostens.qa.testcases.ECheckoutPageTest@383bfa16</td></tr>
+<tr>
+<td title='com.jostens.qa.testcases.FPaymentPageTest.beforeClass()'><b>beforeClass</b><br>Test class: com.jostens.qa.testcases.FPaymentPageTest</td>
+<td></td>
+<td>-1613934757</td>
+<td>com.jostens.qa.testcases.FPaymentPageTest@4d465b11</td></tr>
+<tr>
+<td title='com.jostens.qa.testcases.ALoginPageTest.afterMethod()'><b>afterMethod</b><br>Test class: com.jostens.qa.testcases.ALoginPageTest</td>
+<td></td>
+<td>-1613934755</td>
+<td>com.jostens.qa.testcases.ALoginPageTest@156b88f5</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.jostens.qa.testcases.DShoppingCartPageTest.addProductToCartTest()'><b>addProductToCartTest</b><br>Test class: com.jostens.qa.testcases.DShoppingCartPageTest</td>
+<td><div><pre>org.testng.TestNGException: 
+Data Provider public java.lang.String[][] com.jostens.qa.util.ExcelUtil.getDataTable() returned a null value
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace632627844", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace632627844'><pre>org.testng.TestNGException: 
+Data Provider public java.lang.String[][] com.jostens.qa.util.ExcelUtil.getDataTable() returned a null value
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:147)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:797)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:789)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.jostens.qa.testcases.DShoppingCartPageTest@71def8f8</td></tr>
+<tr>
+<td title='com.jostens.qa.testcases.FPaymentPageTest.paymentPageTest()'><b>paymentPageTest</b><br>Test class: com.jostens.qa.testcases.FPaymentPageTest</td>
+<td><div><pre>org.testng.TestNGException: 
+Data Provider public java.lang.String[][] com.jostens.qa.util.ExcelUtil.getDataTable() returned a null value
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace72615125", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace72615125'><pre>org.testng.TestNGException: 
+Data Provider public java.lang.String[][] com.jostens.qa.util.ExcelUtil.getDataTable() returned a null value
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:147)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:797)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:789)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.jostens.qa.testcases.FPaymentPageTest@4d465b11</td></tr>
+<tr>
+<td title='com.jostens.qa.testcases.ECheckoutPageTest.proceedWithCheckoutTest()'><b>proceedWithCheckoutTest</b><br>Test class: com.jostens.qa.testcases.ECheckoutPageTest</td>
+<td><div><pre>org.testng.TestNGException: 
+Data Provider public java.lang.String[][] com.jostens.qa.util.ExcelUtil.getDataTable() returned a null value
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2025928493", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2025928493'><pre>org.testng.TestNGException: 
+Data Provider public java.lang.String[][] com.jostens.qa.util.ExcelUtil.getDataTable() returned a null value
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:147)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:797)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:789)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.jostens.qa.testcases.ECheckoutPageTest@383bfa16</td></tr>
+<tr>
+<td title='com.jostens.qa.testcases.CProductDetailPageTest.productSearchTest()'><b>productSearchTest</b><br>Test class: com.jostens.qa.testcases.CProductDetailPageTest</td>
+<td><div><pre>org.testng.TestNGException: 
+Data Provider public java.lang.String[][] com.jostens.qa.util.ExcelUtil.getDataTable() returned a null value
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace17680342", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace17680342'><pre>org.testng.TestNGException: 
+Data Provider public java.lang.String[][] com.jostens.qa.util.ExcelUtil.getDataTable() returned a null value
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:147)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:797)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:789)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.jostens.qa.testcases.CProductDetailPageTest@16610890</td></tr>
+<tr>
+<td title='com.jostens.qa.testcases.BSearchSchoolPageTest.searchSchoolTest()'><b>searchSchoolTest</b><br>Test class: com.jostens.qa.testcases.BSearchSchoolPageTest</td>
+<td><div><pre>org.testng.TestNGException: 
+Data Provider public java.lang.String[][] com.jostens.qa.util.ExcelUtil.getDataTable() returned a null value
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2095710480", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2095710480'><pre>org.testng.TestNGException: 
+Data Provider public java.lang.String[][] com.jostens.qa.util.ExcelUtil.getDataTable() returned a null value
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:147)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:797)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:789)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.jostens.qa.testcases.BSearchSchoolPageTest@3bf9ce3e</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
 <tr>
 <td title='com.jostens.qa.testcases.ALoginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.jostens.qa.testcases.ALoginPageTest</td>
-<td></td>
-<td>11</td>
-<td>com.jostens.qa.testcases.ALoginPageTest@16a0ee18</td></tr>
-<tr>
-<td title='com.jostens.qa.testcases.FPaymentPageTest.paymentPageTest()'><b>paymentPageTest</b><br>Test class: com.jostens.qa.testcases.FPaymentPageTest<br>Parameters: 5555555555554444, Cynthia Ambrosia, 0924, 096, Invalid CC Number, Success - 2021/02/15 21:57:59, null, 1</td>
-<td></td>
+<td><div><pre>org.openqa.selenium.WebDriverException: Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 908 milliseconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-LTKBB09&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.9&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
+	at com.jostens.qa.base.TestBase.initializeDriver(TestBase.java:146)
+	at com.jostens.qa.base.TestBase.beforeSuite(TestBase.java:181)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1991386317", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1991386317'><pre>org.openqa.selenium.WebDriverException: Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 908 milliseconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-LTKBB09&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.9&apos;
+Driver info: driver.version: RemoteWebDriver
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
+	at com.jostens.qa.base.TestBase.initializeDriver(TestBase.java:146)
+	at com.jostens.qa.base.TestBase.beforeSuite(TestBase.java:181)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+	at org.testng.TestRunner.run(TestRunner.java:578)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
 <td>0</td>
-<td>com.jostens.qa.testcases.FPaymentPageTest@bd4dc25</td></tr>
-<tr>
-<td title='com.jostens.qa.testcases.ECheckoutPageTest.proceedWithCheckoutTest()'><b>proceedWithCheckoutTest</b><br>Test class: com.jostens.qa.testcases.ECheckoutPageTest<br>Parameters: New Era Men's Heritage Blend 3/4-Sleeve Baseball Raglan Tee, 1, $24.95, Information - Jostens School Store - Checkout, Steve.VerMulm@gmail.com, No, Steven, VerMulm, 409 5th Ave. South, Hopkins, United States, Minnesota, 55343, 7123635520, No, Success - 2021/02/20 18:58:46, null, 1</td>
-<td></td>
-<td>19</td>
-<td>com.jostens.qa.testcases.ECheckoutPageTest@4efc180e</td></tr>
-<tr>
-<td title='com.jostens.qa.testcases.ECheckoutPageTest.proceedWithCheckoutTest()'><b>proceedWithCheckoutTest</b><br>Test class: com.jostens.qa.testcases.ECheckoutPageTest<br>Parameters: New Era Women's Tri-Blend Fleece Pullover Hoodie, 1, $35.95, Information - Jostens School Store - Checkout, Steve.VerMulm@gmail.com, No, Ashlyn, Ambrose, 409 Beachcomber Drive, Lake Park, United States, Iowa, 51347, 7123632575, No, Success - 2021/02/20 18:59:03, null, 2</td>
-<td></td>
-<td>15</td>
-<td>com.jostens.qa.testcases.ECheckoutPageTest@4efc180e</td></tr>
-<tr>
-<td title='com.jostens.qa.testcases.ECheckoutPageTest.proceedWithCheckoutTest()'><b>proceedWithCheckoutTest</b><br>Test class: com.jostens.qa.testcases.ECheckoutPageTest<br>Parameters: 3 Ply Sublimated Mask, 1, $18.95, Information - Jostens School Store - Checkout, Steve.VerMulm@gmail.com, No, Cynthia, Ambrosia, 62310 Lake View Road, Madison Lake, United States, Minnesota, 56063, 7123635519, No, Success - 2021/02/20 18:59:19, null, 3</td>
-<td></td>
-<td>18</td>
-<td>com.jostens.qa.testcases.ECheckoutPageTest@4efc180e</td></tr>
-<tr>
-<td title='com.jostens.qa.testcases.CProductDetailPageTest.productSearchTest()'><b>productSearchTest</b><br>Test class: com.jostens.qa.testcases.CProductDetailPageTest<br>Parameters: New Era Men's Heritage Blend 3/4-Sleeve Baseball Raglan Tee, New Era Men's Heritage Blend 3/4-Sleeve Baseball Raglan Tee - Jostens School Store, Black/White, XL, 1, Right Chest, 31, 35, 11, 7.7, Success - 2020/12/23 13:32:56, 1</td>
-<td></td>
-<td>36</td>
-<td>com.jostens.qa.testcases.CProductDetailPageTest@505fc5a4</td></tr>
-<tr>
-<td title='com.jostens.qa.testcases.CProductDetailPageTest.productSearchTest()'><b>productSearchTest</b><br>Test class: com.jostens.qa.testcases.CProductDetailPageTest<br>Parameters: New Era Women's Tri-Blend Fleece Pullover Hoodie, New Era Women's Tri-Blend Fleece Pullover Hoodie - Jostens School Store, Grey, M, 2, Center Chest, 40, 40, 25, 17.5, Success - 2020/12/23 13:33:18, 2</td>
-<td></td>
-<td>32</td>
-<td>com.jostens.qa.testcases.CProductDetailPageTest@505fc5a4</td></tr>
-<tr>
-<td title='com.jostens.qa.testcases.CProductDetailPageTest.productSearchTest()'><b>productSearchTest</b><br>Test class: com.jostens.qa.testcases.CProductDetailPageTest<br>Parameters: 3 Ply Sublimated Mask, 3 Ply Sublimated Mask - Jostens School Store, White, L/XL, 6, Mask Center, 35, 37, 30, 21, Success - 2020/12/23 13:33:43, 3</td>
-<td></td>
-<td>33</td>
-<td>com.jostens.qa.testcases.CProductDetailPageTest@505fc5a4</td></tr>
-<tr>
-<td title='com.jostens.qa.testcases.BSearchSchoolPageTest.searchSchoolTest()'><b>searchSchoolTest</b><br>Test class: com.jostens.qa.testcases.BSearchSchoolPageTest<br>Parameters: Chaska Middle School East, Chaska Middle School East Chaska, MN Products - Graduation Products from Jostens, Success - 2021/02/20 19:03:28, 1</td>
-<td></td>
-<td>7</td>
-<td>com.jostens.qa.testcases.BSearchSchoolPageTest@3d6f0054</td></tr>
-<tr>
-<td title='com.jostens.qa.testcases.BSearchSchoolPageTest.searchSchoolTest()'><b>searchSchoolTest</b><br>Test class: com.jostens.qa.testcases.BSearchSchoolPageTest<br>Parameters: Chaska High School, Chaska High School Chaska, MN Products - Graduation Products from Jostens, Failure - 2021/02/20 19:03:31, 2</td>
-<td></td>
-<td>4</td>
-<td>com.jostens.qa.testcases.BSearchSchoolPageTest@3d6f0054</td></tr>
+<td>com.jostens.qa.testcases.ALoginPageTest@156b88f5</td></tr>
 </table><p>
 </body>
 </html>

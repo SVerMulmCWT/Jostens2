@@ -40,9 +40,9 @@ import com.jostens.qa.util.ExtentFactory;
 public class TestBase {
 	//Initialize BrowserStack Variable(s)
 //	public static final String USERNAME = "johndang1";
-	public static final String USERNAME = "alexanderjaysen1";
+	public static final String USERNAME = "cynastralis1";
 //	public static final String AUTOMATE_KEY = "ZDrTyrS1hQrUixbHrJVA";
-	public static final String AUTOMATE_KEY = "dTMWpMBTonxzRNkeDaEM";
+	public static final String AUTOMATE_KEY = "3Jbbqzr7wpzLJyLZSTi6";
 //	public static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
 	public static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
 	

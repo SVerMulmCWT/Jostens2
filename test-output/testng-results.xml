@@ -1,916 +1,399 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="10" total="23" passed="13" failed="0" skipped="0">
+<testng-results ignored="10" total="16" passed="0" failed="5" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-02-20T19:04:45 CST" name="TestSuite" finished-at="2021-02-20T19:08:03 CST" duration-ms="198214">
+  <suite started-at="2021-02-21T13:12:33 CST" name="TestSuite" finished-at="2021-02-21T13:12:37 CST" duration-ms="3497">
     <groups>
     </groups>
-    <test started-at="2021-02-20T19:04:45 CST" name="Regression Chrome" finished-at="2021-02-20T19:08:03 CST" duration-ms="198214">
+    <test started-at="2021-02-21T13:12:33 CST" name="Regression Chrome" finished-at="2021-02-21T13:12:37 CST" duration-ms="3497">
       <class name="com.jostens.qa.testcases.CProductDetailPageTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.jostens.qa.testcases.CProductDetailPageTest@505fc5a4]" started-at="2021-02-20T19:05:18 CST" name="beforeClass" finished-at="2021-02-20T19:05:18 CST" duration-ms="36" status="PASS">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:com.jostens.qa.testcases.CProductDetailPageTest@16610890]" started-at="2021-02-21T13:12:36 CST" name="beforeClass" finished-at="1969-12-31T18:00:00 CST" duration-ms="-1613934756778" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="productSearchTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.CProductDetailPageTest@505fc5a4]" started-at="2021-02-20T19:05:18 CST" name="productSearchTest" data-provider="inputs" finished-at="2021-02-20T19:05:55 CST" duration-ms="36813" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[New Era Men's Heritage Blend 3/4-Sleeve Baseball Raglan Tee]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[New Era Men's Heritage Blend 3/4-Sleeve Baseball Raglan Tee - Jostens School Store]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Black/White]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[XL]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Right Chest]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[31]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[35]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[11]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[7.7]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[Success - 2020/12/23 13:32:56]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="productSearchTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.CProductDetailPageTest@16610890]" started-at="2021-02-21T13:12:36 CST" name="productSearchTest" data-provider="inputs" finished-at="2021-02-21T13:12:36 CST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Data Provider public java.lang.String[][] com.jostens.qa.util.ExcelUtil.getDataTable() returned a null value]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Data Provider public java.lang.String[][] com.jostens.qa.util.ExcelUtil.getDataTable() returned a null value
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:147)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:797)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:789)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productSearchTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jostens.qa.testcases.CProductDetailPageTest@505fc5a4]" started-at="2021-02-20T19:05:55 CST" name="afterMethod" finished-at="2021-02-20T19:05:55 CST" duration-ms="136" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=productSearchTest status=SUCCESS method=CProductDetailPageTest.productSearchTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.CProductDetailPageTest@505fc5a4] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="productSearchTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.CProductDetailPageTest@505fc5a4]" started-at="2021-02-20T19:05:55 CST" name="productSearchTest" data-provider="inputs" finished-at="2021-02-20T19:06:27 CST" duration-ms="32151" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[New Era Women's Tri-Blend Fleece Pullover Hoodie]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[New Era Women's Tri-Blend Fleece Pullover Hoodie - Jostens School Store]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Grey]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[M]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Center Chest]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[40]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[40]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[25]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[17.5]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[Success - 2020/12/23 13:33:18]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productSearchTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jostens.qa.testcases.CProductDetailPageTest@505fc5a4]" started-at="2021-02-20T19:06:27 CST" name="afterMethod" finished-at="2021-02-20T19:06:27 CST" duration-ms="115" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=productSearchTest status=SUCCESS method=CProductDetailPageTest.productSearchTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.CProductDetailPageTest@505fc5a4] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="productSearchTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.CProductDetailPageTest@505fc5a4]" started-at="2021-02-20T19:06:27 CST" name="productSearchTest" data-provider="inputs" finished-at="2021-02-20T19:07:01 CST" duration-ms="33479" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[3 Ply Sublimated Mask]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[3 Ply Sublimated Mask - Jostens School Store]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[White]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[L/XL]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[6]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Mask Center]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[35]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[37]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[30]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[21]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[Success - 2020/12/23 13:33:43]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productSearchTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jostens.qa.testcases.CProductDetailPageTest@505fc5a4]" started-at="2021-02-20T19:07:01 CST" name="afterMethod" finished-at="2021-02-20T19:07:01 CST" duration-ms="145" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=productSearchTest status=SUCCESS method=CProductDetailPageTest.productSearchTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.CProductDetailPageTest@505fc5a4] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
       </class> <!-- com.jostens.qa.testcases.CProductDetailPageTest -->
       <class name="com.jostens.qa.testcases.BSearchSchoolPageTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.jostens.qa.testcases.BSearchSchoolPageTest@3d6f0054]" started-at="2021-02-20T19:05:06 CST" name="beforeClass" finished-at="2021-02-20T19:05:06 CST" duration-ms="168" status="PASS">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:com.jostens.qa.testcases.BSearchSchoolPageTest@3bf9ce3e]" started-at="2021-02-21T13:12:35 CST" name="beforeClass" finished-at="1969-12-31T18:00:00 CST" duration-ms="-1613934755854" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="searchSchoolTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.BSearchSchoolPageTest@3d6f0054]" started-at="2021-02-20T19:05:06 CST" name="searchSchoolTest" data-provider="inputs" finished-at="2021-02-20T19:05:13 CST" duration-ms="7437" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chaska Middle School East]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Chaska Middle School East Chaska, MN Products - Graduation Products from Jostens]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Success - 2021/02/20 19:03:28]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="searchSchoolTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.BSearchSchoolPageTest@3bf9ce3e]" started-at="2021-02-21T13:12:36 CST" name="searchSchoolTest" data-provider="inputs" finished-at="2021-02-21T13:12:36 CST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Data Provider public java.lang.String[][] com.jostens.qa.util.ExcelUtil.getDataTable() returned a null value]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Data Provider public java.lang.String[][] com.jostens.qa.util.ExcelUtil.getDataTable() returned a null value
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:147)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:797)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:789)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchSchoolTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jostens.qa.testcases.BSearchSchoolPageTest@3d6f0054]" started-at="2021-02-20T19:05:13 CST" name="afterMethod" finished-at="2021-02-20T19:05:14 CST" duration-ms="189" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=searchSchoolTest status=SUCCESS method=BSearchSchoolPageTest.searchSchoolTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.BSearchSchoolPageTest@3d6f0054] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="searchSchoolTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.BSearchSchoolPageTest@3d6f0054]" started-at="2021-02-20T19:05:14 CST" name="searchSchoolTest" data-provider="inputs" finished-at="2021-02-20T19:05:18 CST" duration-ms="4177" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chaska High School]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Chaska High School Chaska, MN Products - Graduation Products from Jostens]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Failure - 2021/02/20 19:03:31]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchSchoolTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jostens.qa.testcases.BSearchSchoolPageTest@3d6f0054]" started-at="2021-02-20T19:05:18 CST" name="afterMethod" finished-at="2021-02-20T19:05:18 CST" duration-ms="152" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=searchSchoolTest status=SUCCESS method=BSearchSchoolPageTest.searchSchoolTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.BSearchSchoolPageTest@3d6f0054] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
       </class> <!-- com.jostens.qa.testcases.BSearchSchoolPageTest -->
       <class name="com.jostens.qa.testcases.ECheckoutPageTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.jostens.qa.testcases.ECheckoutPageTest@4efc180e]" started-at="2021-02-20T19:07:09 CST" name="beforeClass" finished-at="2021-02-20T19:07:09 CST" duration-ms="81" status="PASS">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:com.jostens.qa.testcases.ECheckoutPageTest@383bfa16]" started-at="2021-02-21T13:12:37 CST" name="beforeClass" finished-at="1969-12-31T18:00:00 CST" duration-ms="-1613934757023" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="proceedWithCheckoutTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.ECheckoutPageTest@4efc180e]" started-at="2021-02-20T19:07:09 CST" name="proceedWithCheckoutTest" data-provider="inputs" finished-at="2021-02-20T19:07:29 CST" duration-ms="19945" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[New Era Men's Heritage Blend 3/4-Sleeve Baseball Raglan Tee]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[$24.95]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Information - Jostens School Store - Checkout]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Steve.VerMulm@gmail.com]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[No]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Steven]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[VerMulm]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[409 5th Ave. South]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[Hopkins]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[United States]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[Minnesota]]>
-              </value>
-            </param>
-            <param index="12">
-              <value>
-                <![CDATA[55343]]>
-              </value>
-            </param>
-            <param index="13">
-              <value>
-                <![CDATA[7123635520]]>
-              </value>
-            </param>
-            <param index="14">
-              <value>
-                <![CDATA[No]]>
-              </value>
-            </param>
-            <param index="15">
-              <value>
-                <![CDATA[Success - 2021/02/20 18:58:46]]>
-              </value>
-            </param>
-            <param index="16">
-              <value is-null="true"/>
-            </param>
-            <param index="17">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="proceedWithCheckoutTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.ECheckoutPageTest@383bfa16]" started-at="2021-02-21T13:12:37 CST" name="proceedWithCheckoutTest" data-provider="inputs" finished-at="2021-02-21T13:12:37 CST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Data Provider public java.lang.String[][] com.jostens.qa.util.ExcelUtil.getDataTable() returned a null value]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Data Provider public java.lang.String[][] com.jostens.qa.util.ExcelUtil.getDataTable() returned a null value
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:147)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:797)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:789)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- proceedWithCheckoutTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jostens.qa.testcases.ECheckoutPageTest@4efc180e]" started-at="2021-02-20T19:07:29 CST" name="afterMethod" finished-at="2021-02-20T19:07:29 CST" duration-ms="87" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=proceedWithCheckoutTest status=SUCCESS method=ECheckoutPageTest.proceedWithCheckoutTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.ECheckoutPageTest@4efc180e] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="proceedWithCheckoutTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.ECheckoutPageTest@4efc180e]" started-at="2021-02-20T19:07:29 CST" name="proceedWithCheckoutTest" data-provider="inputs" finished-at="2021-02-20T19:07:45 CST" duration-ms="15480" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[New Era Women's Tri-Blend Fleece Pullover Hoodie]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[$35.95]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Information - Jostens School Store - Checkout]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Steve.VerMulm@gmail.com]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[No]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Ashlyn]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[Ambrose]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[409 Beachcomber Drive]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[Lake Park]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[United States]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[Iowa]]>
-              </value>
-            </param>
-            <param index="12">
-              <value>
-                <![CDATA[51347]]>
-              </value>
-            </param>
-            <param index="13">
-              <value>
-                <![CDATA[7123632575]]>
-              </value>
-            </param>
-            <param index="14">
-              <value>
-                <![CDATA[No]]>
-              </value>
-            </param>
-            <param index="15">
-              <value>
-                <![CDATA[Success - 2021/02/20 18:59:03]]>
-              </value>
-            </param>
-            <param index="16">
-              <value is-null="true"/>
-            </param>
-            <param index="17">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- proceedWithCheckoutTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jostens.qa.testcases.ECheckoutPageTest@4efc180e]" started-at="2021-02-20T19:07:45 CST" name="afterMethod" finished-at="2021-02-20T19:07:45 CST" duration-ms="88" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=proceedWithCheckoutTest status=SUCCESS method=ECheckoutPageTest.proceedWithCheckoutTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.ECheckoutPageTest@4efc180e] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="proceedWithCheckoutTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.ECheckoutPageTest@4efc180e]" started-at="2021-02-20T19:07:45 CST" name="proceedWithCheckoutTest" data-provider="inputs" finished-at="2021-02-20T19:08:03 CST" duration-ms="18194" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[3 Ply Sublimated Mask]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[$18.95]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Information - Jostens School Store - Checkout]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Steve.VerMulm@gmail.com]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[No]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Cynthia]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[Ambrosia]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[62310 Lake View Road]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[Madison Lake]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[United States]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[Minnesota]]>
-              </value>
-            </param>
-            <param index="12">
-              <value>
-                <![CDATA[56063]]>
-              </value>
-            </param>
-            <param index="13">
-              <value>
-                <![CDATA[7123635519]]>
-              </value>
-            </param>
-            <param index="14">
-              <value>
-                <![CDATA[No]]>
-              </value>
-            </param>
-            <param index="15">
-              <value>
-                <![CDATA[Success - 2021/02/20 18:59:19]]>
-              </value>
-            </param>
-            <param index="16">
-              <value is-null="true"/>
-            </param>
-            <param index="17">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- proceedWithCheckoutTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jostens.qa.testcases.ECheckoutPageTest@4efc180e]" started-at="2021-02-20T19:08:03 CST" name="afterMethod" finished-at="2021-02-20T19:08:03 CST" duration-ms="100" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=proceedWithCheckoutTest status=SUCCESS method=ECheckoutPageTest.proceedWithCheckoutTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.ECheckoutPageTest@4efc180e] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
       </class> <!-- com.jostens.qa.testcases.ECheckoutPageTest -->
       <class name="com.jostens.qa.testcases.DShoppingCartPageTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.jostens.qa.testcases.DShoppingCartPageTest@5fbdfdcf]" started-at="2021-02-20T19:07:01 CST" name="beforeClass" finished-at="2021-02-20T19:07:01 CST" duration-ms="71" status="PASS">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:com.jostens.qa.testcases.DShoppingCartPageTest@71def8f8]" started-at="2021-02-21T13:12:36 CST" name="beforeClass" finished-at="1969-12-31T18:00:00 CST" duration-ms="-1613934756897" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="addProductToCartTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.DShoppingCartPageTest@5fbdfdcf]" started-at="2021-02-20T19:07:01 CST" name="addProductToCartTest" data-provider="inputs" finished-at="2021-02-20T19:07:05 CST" duration-ms="4496" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[New Era Men's Heritage Blend 3/4-Sleeve Baseball Raglan Tee]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Your Shopping Cart - Jostens School Store]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[$27.95]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[$27.95]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[$85.85]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Success - 2021/02/20 18:58:27]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="addProductToCartTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.DShoppingCartPageTest@71def8f8]" started-at="2021-02-21T13:12:37 CST" name="addProductToCartTest" data-provider="inputs" finished-at="2021-02-21T13:12:37 CST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Data Provider public java.lang.String[][] com.jostens.qa.util.ExcelUtil.getDataTable() returned a null value]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Data Provider public java.lang.String[][] com.jostens.qa.util.ExcelUtil.getDataTable() returned a null value
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:147)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:797)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:789)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addProductToCartTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jostens.qa.testcases.DShoppingCartPageTest@5fbdfdcf]" started-at="2021-02-20T19:07:05 CST" name="afterMethod" finished-at="2021-02-20T19:07:06 CST" duration-ms="119" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=addProductToCartTest status=SUCCESS method=DShoppingCartPageTest.addProductToCartTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.DShoppingCartPageTest@5fbdfdcf] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="addProductToCartTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.DShoppingCartPageTest@5fbdfdcf]" started-at="2021-02-20T19:07:06 CST" name="addProductToCartTest" data-provider="inputs" finished-at="2021-02-20T19:07:07 CST" duration-ms="1443" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[New Era Women's Tri-Blend Fleece Pullover Hoodie]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Your Shopping Cart - Jostens School Store]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[$38.95]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[$38.95]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[$85.85]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Success - 2021/02/20 18:58:28]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addProductToCartTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jostens.qa.testcases.DShoppingCartPageTest@5fbdfdcf]" started-at="2021-02-20T19:07:07 CST" name="afterMethod" finished-at="2021-02-20T19:07:07 CST" duration-ms="117" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=addProductToCartTest status=SUCCESS method=DShoppingCartPageTest.addProductToCartTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.DShoppingCartPageTest@5fbdfdcf] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="addProductToCartTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.DShoppingCartPageTest@5fbdfdcf]" started-at="2021-02-20T19:07:07 CST" name="addProductToCartTest" data-provider="inputs" finished-at="2021-02-20T19:07:09 CST" duration-ms="1774" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[3 Ply Sublimated Mask]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Your Shopping Cart - Jostens School Store]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[$18.95]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[$18.95]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[$85.85]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Success - 2021/02/20 18:58:29]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addProductToCartTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jostens.qa.testcases.DShoppingCartPageTest@5fbdfdcf]" started-at="2021-02-20T19:07:09 CST" name="afterMethod" finished-at="2021-02-20T19:07:09 CST" duration-ms="116" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=addProductToCartTest status=SUCCESS method=DShoppingCartPageTest.addProductToCartTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.DShoppingCartPageTest@5fbdfdcf] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
       </class> <!-- com.jostens.qa.testcases.DShoppingCartPageTest -->
-      <class name="com.jostens.qa.testcases.FPaymentPageTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.jostens.qa.testcases.FPaymentPageTest@bd4dc25]" started-at="2021-02-20T19:08:03 CST" name="beforeClass" finished-at="2021-02-20T19:08:03 CST" duration-ms="45" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="paymentPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.FPaymentPageTest@bd4dc25]" started-at="2021-02-20T19:08:03 CST" name="paymentPageTest" data-provider="inputs" finished-at="2021-02-20T19:08:03 CST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[5555555555554444]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Cynthia Ambrosia]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[0924]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[096]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Invalid CC Number]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Success - 2021/02/15 21:57:59]]>
-              </value>
-            </param>
-            <param index="6">
-              <value is-null="true"/>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- paymentPageTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jostens.qa.testcases.FPaymentPageTest@bd4dc25]" started-at="2021-02-20T19:08:03 CST" name="afterMethod" finished-at="2021-02-20T19:08:03 CST" duration-ms="100" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=paymentPageTest status=SUCCESS method=FPaymentPageTest.paymentPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.FPaymentPageTest@bd4dc25] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- com.jostens.qa.testcases.FPaymentPageTest -->
       <class name="com.jostens.qa.testcases.ALoginPageTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.jostens.qa.testcases.ALoginPageTest@16a0ee18]" started-at="2021-02-20T19:04:45 CST" name="beforeSuite" finished-at="2021-02-20T19:04:53 CST" duration-ms="7513" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.jostens.qa.testcases.ALoginPageTest@156b88f5]" started-at="2021-02-21T13:12:33 CST" name="beforeSuite" finished-at="2021-02-21T13:12:35 CST" duration-ms="2107" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 908 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-LTKBB09', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 908 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-LTKBB09', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: driver.version: RemoteWebDriver
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+at com.jostens.qa.base.TestBase.initializeDriver(TestBase.java:146)
+at com.jostens.qa.base.TestBase.beforeSuite(TestBase.java:181)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+at org.testng.TestRunner.run(TestRunner.java:578)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.jostens.qa.testcases.ALoginPageTest@16a0ee18]" started-at="2021-02-20T19:04:53 CST" name="beforeClass" finished-at="2021-02-20T19:04:53 CST" duration-ms="189" status="PASS">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:com.jostens.qa.testcases.ALoginPageTest@156b88f5]" started-at="2021-02-21T13:12:35 CST" name="beforeClass" finished-at="1969-12-31T18:00:00 CST" duration-ms="-1613934755827" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="loginTest()[pri:0, instance:com.jostens.qa.testcases.ALoginPageTest@16a0ee18]" started-at="2021-02-20T19:04:53 CST" name="loginTest" finished-at="2021-02-20T19:05:04 CST" duration-ms="11328" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:com.jostens.qa.testcases.ALoginPageTest@156b88f5]" started-at="2021-02-21T13:12:35 CST" name="loginTest" finished-at="2021-02-21T13:12:35 CST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 908 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-LTKBB09', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 908 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-LTKBB09', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: driver.version: RemoteWebDriver
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+at com.jostens.qa.base.TestBase.initializeDriver(TestBase.java:146)
+at com.jostens.qa.base.TestBase.beforeSuite(TestBase.java:181)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+at org.testng.TestRunner.run(TestRunner.java:578)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jostens.qa.testcases.ALoginPageTest@16a0ee18]" started-at="2021-02-20T19:05:04 CST" name="afterMethod" finished-at="2021-02-20T19:05:06 CST" duration-ms="1502" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=loginTest status=SUCCESS method=ALoginPageTest.loginTest()[pri:0, instance:com.jostens.qa.testcases.ALoginPageTest@16a0ee18] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.jostens.qa.testcases.ALoginPageTest@156b88f5]" started-at="2021-02-21T13:12:35 CST" name="afterMethod" finished-at="1969-12-31T18:00:00 CST" duration-ms="-1613934755850" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.jostens.qa.testcases.ALoginPageTest@16a0ee18]" started-at="2021-02-20T19:08:03 CST" name="afterSuite" finished-at="2021-02-20T19:08:03 CST" duration-ms="93" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.jostens.qa.testcases.ALoginPageTest@156b88f5]" started-at="2021-02-21T13:12:37 CST" name="afterSuite" finished-at="1969-12-31T18:00:00 CST" duration-ms="-1613934757244" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- com.jostens.qa.testcases.ALoginPageTest -->
+      <class name="com.jostens.qa.testcases.FPaymentPageTest">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:com.jostens.qa.testcases.FPaymentPageTest@4d465b11]" started-at="2021-02-21T13:12:37 CST" name="beforeClass" finished-at="1969-12-31T18:00:00 CST" duration-ms="-1613934757122" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="paymentPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jostens.qa.testcases.FPaymentPageTest@4d465b11]" started-at="2021-02-21T13:12:37 CST" name="paymentPageTest" data-provider="inputs" finished-at="2021-02-21T13:12:37 CST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Data Provider public java.lang.String[][] com.jostens.qa.util.ExcelUtil.getDataTable() returned a null value]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Data Provider public java.lang.String[][] com.jostens.qa.util.ExcelUtil.getDataTable() returned a null value
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:147)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:797)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:789)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentPageTest -->
+      </class> <!-- com.jostens.qa.testcases.FPaymentPageTest -->
     </test> <!-- Regression Chrome -->
   </suite> <!-- TestSuite -->
 </testng-results>
