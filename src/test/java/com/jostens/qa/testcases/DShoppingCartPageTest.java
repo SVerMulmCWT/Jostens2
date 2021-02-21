@@ -1,6 +1,7 @@
 package com.jostens.qa.testcases;
 
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
@@ -21,10 +22,11 @@ public class DShoppingCartPageTest extends TestBase {
 	
 	//Setup variable(s) and other info for the class
 	@BeforeClass
-	public void beforeClass() {
+	@Parameters({"dataTable"})
+	public void beforeClass(String excelPath) {
 		//Initialize Variable(s)
 		excelMethods = new ExcelUtil();
-//		excelMethods.setDataTablePath(excelPath);
+		excelMethods.setDataTablePath(excelPath);
 		excelMethods.setSheetName("Shopping Cart");
 		column = 7;
 		

@@ -27,7 +27,7 @@ public class ExcelUtil {
 	private static XSSFRow Row;
 	
 	//Location of the Excel File
-	private static String path = System.getProperty("user.dir") + "\\src\\main\\java\\com\\jostens\\qa\\testdata\\newJostens2.xlsx";
+	private static String path = System.getProperty("user.dir") + "\\src\\main\\java\\com\\jostens\\qa\\testdata\\newJostens.xlsx";
 	public static String sheetName = "";
 	
 	public void setDataTablePath(String dataTablePath) {

@@ -11,6 +11,8 @@
 	
 	<test name="Regression Chrome">
 		
+		<parameter name="dataTable" value="\src\main\java\com\jostens\qa\testdata\newJostens2.xlsx" />
+		
 		<classes>
 			<class name="com.jostens.qa.testcases.ALoginPageTest"></class>
  			<class name="com.jostens.qa.testcases.BSearchSchoolPageTest"></class>
